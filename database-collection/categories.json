@@ -1,0 +1,39 @@
+/* 1 */
+{
+    "_id" : ObjectId("5f5dc2a138a8bc0873ecaf48"),
+    "updatedAt" : ISODate("2020-09-13T06:56:33.018Z"),
+    "createdAt" : ISODate("2020-09-13T06:56:33.018Z"),
+    "categoryName" : "Clothes",
+    "isDelete" : false,
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5f5dc3313e46b009832ddf7e"),
+    "updatedAt" : ISODate("2020-09-13T06:58:57.396Z"),
+    "createdAt" : ISODate("2020-09-13T06:58:57.396Z"),
+    "categoryName" : "Shoes",
+    "isDelete" : false,
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5f5dc3413e46b009832ddf7f"),
+    "updatedAt" : ISODate("2020-09-13T06:59:13.021Z"),
+    "createdAt" : ISODate("2020-09-13T06:59:13.021Z"),
+    "categoryName" : "Mobiles",
+    "isDelete" : false,
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5f5dc662f22f8c04e7312cef"),
+    "updatedAt" : ISODate("2020-09-13T07:12:34.079Z"),
+    "createdAt" : ISODate("2020-09-13T07:12:34.079Z"),
+    "categoryName" : "Jewellery",
+    "isDelete" : false,
+    "__v" : 0
+}

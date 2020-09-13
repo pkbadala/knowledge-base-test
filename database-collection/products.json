@@ -1,0 +1,51 @@
+/* 1 */
+{
+    "_id" : ObjectId("5f5dc6bff22f8c04e7312cf0"),
+    "updatedAt" : ISODate("2020-09-13T10:33:37.712Z"),
+    "createdAt" : ISODate("2020-09-13T07:14:07.679Z"),
+    "productName" : "Designer shirt",
+    "productDescription" : "Open your wardrobe to our designer Shirts at Farfetched. Make the most of climate conscious ✈ delivery to over 190 countries worldwide.",
+    "categoryId" : ObjectId("5f5dc2a138a8bc0873ecaf48"),
+    "isDeleted" : false,
+    "productImage" : "image_1599981235607.jpeg",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5f5dc745f22f8c04e7312cf1"),
+    "updatedAt" : ISODate("2020-09-13T07:16:21.493Z"),
+    "createdAt" : ISODate("2020-09-13T07:16:21.493Z"),
+    "productName" : "Shimmer Necklace Set",
+    "productDescription" : "Unique Designer Jewellery online shopping at Mirraw, we offer exciting sale on handmade fashion jewelry for limited period of time with free shipping.",
+    "categoryId" : ObjectId("5f5dc662f22f8c04e7312cef"),
+    "isDeleted" : false,
+    "productImage" : "image_1599981380220.jpeg",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5f5dc80ef22f8c04e7312cf2"),
+    "updatedAt" : ISODate("2020-09-13T07:19:42.132Z"),
+    "createdAt" : ISODate("2020-09-13T07:19:42.132Z"),
+    "productName" : "Silver Zircon Pendant",
+    "productDescription" : "Shop designer handmade gold jewellery online at Azva. Our jewellery designs are inspired by the seven wedding vows and every collection has designs 22 Karat.",
+    "categoryId" : ObjectId("5f5dc662f22f8c04e7312cef"),
+    "isDeleted" : false,
+    "productImage" : "image_1599981581101.jpeg",
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5f5dc88af22f8c04e7312cf3"),
+    "updatedAt" : ISODate("2020-09-13T10:21:53.848Z"),
+    "createdAt" : ISODate("2020-09-13T07:21:46.789Z"),
+    "productName" : "Adidas shoe",
+    "productDescription" : "Open your wardrobe to our designer Shoes at Farfetch. Make the most of climate conscious ✈ delivery to over 190 countries worldwide.",
+    "categoryId" : ObjectId("5f5dc3313e46b009832ddf7e"),
+    "isDeleted" : false,
+    "productImage" : "image_1599981705457.jpeg",
+    "__v" : 0
+}

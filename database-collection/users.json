@@ -1,0 +1,28 @@
+/* 1 */
+{
+    "_id" : ObjectId("5f5dc613f22f8c04e7312cee"),
+    "updatedAt" : ISODate("2020-09-13T07:26:10.997Z"),
+    "createdAt" : ISODate("2020-09-13T07:11:15.773Z"),
+    "userName" : "prince shoot",
+    "email" : "princejain@gmail.com",
+    "password" : "$2b$10$QVEvaKr8pUaii0Q.8F87KOAPP/rfAQczvf6dlnH8H29RFXYdOT0N.",
+    "accessToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InByaW5jZWphaW5AZ21haWwuY29tIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMzQzNDEwLCJpYXQiOjE1OTk5ODE5NzB9.rSAPPTwZF5p6vqrgE0XatvI5vgO3xBBVEpE0kOk1Gj4",
+    "isDelete" : false,
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5f5dccd2f22f8c04e7312cf4"),
+    "updatedAt" : ISODate("2020-09-13T07:40:02.913Z"),
+    "createdAt" : ISODate("2020-09-13T07:40:02.913Z"),
+    "userName" : "Pratik Badala",
+    "email" : "pratik.badala@gmail.com",
+    "googleId" : "116767382819030820345",
+    "googleIdToken" : "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNmMzMyYjNlOWI5MjhiZmU1MWJjZjRmOGRhNTQzY2M0YmQ5ZDQ3MjQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNDA4NTcyMDE2NDY5LTI2NWFucWExYXV1YmoxN2k3amlqMzludmlzZGVpYWFxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNDA4NTcyMDE2NDY5LTI2NWFucWExYXV1YmoxN2k3amlqMzludmlzZGVpYWFxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE2NzY3MzgyODE5MDMwODIwMzQ1IiwiaGQiOiJpbmRpYW5pYy5jb20iLCJlbWFpbCI6InByYXRpay5iYWRhbGFAaW5kaWFuaWMuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJmX0FnTzNoV2JwRS1MbWRwdlVPZzdRIiwibmFtZSI6IlByYXRpayBCYWRhbGEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDQuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy03Zll0RUZJdDBaMC9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9BTVp1dWNuNnNCWFRJZW1MYzVzR21LcjZETHhONUZRY0hBL3M5Ni1jL3Bob3RvLmpwZyIsImdpdmVuX25hbWUiOiJQcmF0aWsiLCJmYW1pbHlfbmFtZSI6IkJhZGFsYSIsImxvY2FsZSI6ImVuIiwiaWF0IjoxNTk5OTgyODAyLCJleHAiOjE1OTk5ODY0MDIsImp0aSI6IjdkYWY3Y2RiNjk0YTY5M2FmZTZiMWE4ZDNiNGIzMmE1ZTg4M2RkNmMifQ.cMDveuAhlvnojEbTp7JbYVQAdnrBiVkZAWVUgJ5blOOVZ88JfYZd5BnusRDOcO2kR6X4v4NkzU545nSw4I1U00tCCc78FmSlurcMEsAZhAALDBqSxae68bwHmG5uWJkY1O6j7MfIC6M65A7a5tRdW0nXLwuFqN8uvwZ4fj4D2ZJ9TJ14N1YLqoqx5vnlCHbIAr76efLmA1j4f73FBUQkE7RZGQd4sKLW3rTBC_EmEWUxEhJDT50wkRhe_lzSMLs8jHmzHilCRNR5d7A0PFMdVPqbQWp7mj7AaqLtiBBq586dcjU32cmQ_4eZrq2awdxFMSJI4cZfOEyXpg93-qPlLw",
+    "googleToken" : "ya29.a0AfH6SMAZmtoZMsaQ6JEriAo9NAd7ycI7Q4-8AU3WJ7XQUwY7cA6ajgnd6GC6rF591eD1J3hzc7boeafsQ4GLc04hFXG95pB0t4UN1SzQcNIHSQEMuMOQzqYgoNNorqjPyBOFicWd2Mm4rIUKrpAHhaAHXuGCAETcS1dg",
+    "accessToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InByYXRpay5iYWRhbGFAaW5kaWFuaWMuY29tIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMzQ0MjQyLCJpYXQiOjE1OTk5ODI4MDJ9.JM0KN2Tzt3PjthKlJZj7MVugp_nB-7uRUSRCNNkO11E",
+    "isDelete" : false,
+    "__v" : 0
+}
+}

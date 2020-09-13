@@ -1,0 +1,348 @@
+{
+	"info": {
+		"_postman_id": "d8c31074-d2f5-4461-a253-73e0291a585d",
+		"name": "Test-API-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"test@grr.la\",\n    \"password\" : \"Test@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"test\",\n    \"email\": \"test@grr.la\",\n    \"password\" : \"Test@123\",\n    \"rpassword\" : \"Test@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/registration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/saveCategory",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMjE5NzMzLCJpYXQiOjE1OTk4NTgyOTN9.7yzGsuJwf_hxOuYznGcSilAjkQk3lm0fV25j8RmoxXs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"categoryName\": \"Cloth\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/saveCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"saveCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/getAllCategory",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMjE5NzMzLCJpYXQiOjE1OTk4NTgyOTN9.7yzGsuJwf_hxOuYznGcSilAjkQk3lm0fV25j8RmoxXs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/getAllCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"getAllCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/saveProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNTk5MDY1ODUxLCJpYXQiOjE1OTg3MDQ0MTF9.oigZswEbVoDuvYPssnNRWzSSUdwiHGJqGwUlsXkJfGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"productName\": \"watch look\",\n    \"productDescription\": \"My watch designs\",\n    \"productImage\": \"image_1599919938684.png\",\n    \"categoryId\": \"5f5cc6fa3e806d05fa5813dd\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/saveProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"saveProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/getAllProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMjc3MDQ5LCJpYXQiOjE1OTk5MTU2MDl9.Q1tv4mmikeBkGgSQXI3IsT41SktOWPobTssc43D9gb4"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"pageNumber\": 1,\n    \"pageSize\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/getAllProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"getAllProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/fileUpload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMjc3MDQ5LCJpYXQiOjE1OTk5MTU2MDl9.Q1tv4mmikeBkGgSQXI3IsT41SktOWPobTssc43D9gb4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/indianic/Desktop/event.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/fileUpload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"fileUpload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/getUserDetail/5f5ce19b5a929b0b441f00a6",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMjE5NzMzLCJpYXQiOjE1OTk4NTgyOTN9.7yzGsuJwf_hxOuYznGcSilAjkQk3lm0fV25j8RmoxXs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/getUserDetail/5f5ce19b5a929b0b441f00a6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"getUserDetail",
+						"5f5ce19b5a929b0b441f00a6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/updateUserDetail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"pk\",\n    \"userId\" : \"5f5ce19b5a929b0b441f00a6\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/updateUserDetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"updateUserDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/getProductDetail/5f5dc88af22f8c04e7312cf3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMjE5NzMzLCJpYXQiOjE1OTk4NTgyOTN9.7yzGsuJwf_hxOuYznGcSilAjkQk3lm0fV25j8RmoxXs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/getProductDetail/5f5dc88af22f8c04e7312cf3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"getProductDetail",
+						"5f5dc88af22f8c04e7312cf3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/deleteProduct/5f5dc88af22f8c04e7312cf3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6eyJlbWFpbCI6InRlc3RAZ3JyLmxhIn0sImFsZ29yaXRobSI6IkhTMjU2IiwiZXhwIjoxNjAwMjE5NzMzLCJpYXQiOjE1OTk4NTgyOTN9.7yzGsuJwf_hxOuYznGcSilAjkQk3lm0fV25j8RmoxXs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/deleteProduct/5f5dc88af22f8c04e7312cf3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"deleteProduct",
+						"5f5dc88af22f8c04e7312cf3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
