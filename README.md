@@ -30,7 +30,7 @@ Product Description:
 1. SignUp/SignIn with normal email and using google social media. (Landing Page)
 2. Home page with list of product's.
 3. User can able to add new categories like (cloth/shoe/watch etc.) 
-4. User can able to add/edit/delet prodcut with product image.
-5. User can able to filter product with specific category and search prodcut by product name and prodcut description.
+4. User can able to add/edit/delete prodcut with product image.
+5. User can able to filter product with specific category and search product by product name and prodcut description.
 6. User can able to edit his/her person profile.
 7. Click on home icon 'All data refresh'.
