@@ -3,7 +3,6 @@ import { Meta, Title } from '@angular/platform-browser';
 import { isPlatformBrowser } from '@angular/common';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { CommonService } from './common.service';
-import { ErrorMessages } from './errorMessages';
 import { HttpClient } from '@angular/common/http';
 // import { BsModalService } from 'ngx-bootstrap/modal'; 
 
@@ -26,13 +25,11 @@ export class BaseComponent {
     this.platformId = injector.get(PLATFORM_ID)
     this.appId = injector.get(APP_ID)
     this.commonService = injector.get(CommonService)
-    this.errorMessage = injector.get(ErrorMessages)
     this.titleService = injector.get(Title)
     this.activatedRoute = injector.get(ActivatedRoute)
     this.baseUrl = this.commonService._apiUrl; 
   }
   public activatedRoute: ActivatedRoute;
-  public errorMessage: ErrorMessages
   // public modalService: BsModalService
   // public swal = swal;
   public titleService: Title
@@ -209,14 +206,6 @@ export class BaseComponent {
   }
   /****************************************************************************/
 
-  /****************************************************************************
-  @PURPOSE      : To show validation message
-  @PARAMETERS   : <field_name, errorObj?>
-  @RETURN       : error message.
-  ****************************************************************************/
-  showError(field, errorObj?) {
-    return this.errorMessage.getError(field, errorObj)
-  }
   /****************************************************************************/
   getProfile() {
     const url = this.getToken("ss_pic");

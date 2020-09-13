@@ -1,3 +1,4 @@
 # don't update those files/folder
 /node_modules
 package-lock.json
+/public

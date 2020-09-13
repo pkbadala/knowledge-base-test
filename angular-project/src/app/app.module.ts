@@ -7,7 +7,6 @@ import { CommonModule } from '@angular/common';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgtUniversalModule } from '@ng-toolkit/universal';
-import { ErrorMessages } from './common/errorMessages';
 import { CanLoginActivate, CanAuthActivate } from './common/auth.gaurd';
 import { BaseComponent } from './common/commonComponent';
 import { ToastrModule } from 'ngx-toastr';
@@ -35,7 +34,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       preventDuplicates: true
     })
   ],
-  providers: [ErrorMessages],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
